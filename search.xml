@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/11/25/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>平面直角坐标系-笔记</title>
     <url>/2023/11/26/%E5%B9%B3%E9%9D%A2%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB-%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h1><h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h2>]]></content>
+    <content><![CDATA[<h2 id="基本知识"><a href="#基本知识" class="headerlink" title="基本知识"></a>基本知识</h2><hr>
+<p><img src="/images/%E5%9D%90%E6%A0%87%E7%B3%BB.PNG" alt="坐标系"></p>
+<p>x轴，又称横轴，为横坐标<br>y轴，又称纵轴，为纵坐标<br>描述点的位置时，为形如 <kbd>(横坐标，纵坐标)</kbd> 的有序数对</p>
+<p>对于点 <kbd>(x, y)</kbd><br>x&gt;0, y&gt;0 时，在 <strong>第一象限</strong><br>x&gt;0, y&lt;0 时，在 <strong>第四象限</strong><br>x&lt;0, y&gt;0 时，在 <strong>第二象限</strong><br>x&lt;0, y&lt;0 时，在 <strong>第三象限</strong><br>x&#x3D;0, y&#x3D;0 时，在 <strong>原点</strong><br>x&#x3D;0, y≠0 时，在 <strong>y轴</strong><br>x≠0, y&#x3D;0 时，在 <strong>x轴</strong></p>
+<p>在x轴正半轴上 —— <strong>横坐标&gt;0, 纵坐标&#x3D;0</strong><br>在y轴正半轴上 —— <strong>横坐标&#x3D;0, 纵坐标&gt;0</strong><br>在x轴负半轴上 —— <strong>横坐标&lt;0, 纵坐标&#x3D;0</strong><br>在y轴负半轴上 —— <strong>横坐标&#x3D;0, 纵坐标&lt;0</strong><br><br></p>
+<h2 id="特殊直线上点的坐标"><a href="#特殊直线上点的坐标" class="headerlink" title="特殊直线上点的坐标"></a>特殊直线上点的坐标</h2><hr>
+<p>若有两点 <kbd>P(x1, y1)</kbd> 与 <kbd>Q(x2, y2)</kbd>，满足</p>
+<ol>
+<li>PQ 平行于x轴：<kbd>x1≠x2, y1=y2</kbd></li>
+</ol>
+]]></content>
   </entry>
 </search>
